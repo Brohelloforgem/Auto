@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Override scrollbars, fonts, etc. */
+body { @apply bg-gray-900 text-white; }
