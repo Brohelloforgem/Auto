@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import LoginButton from '../components/LoginButton.jsk'
-import VideoForm from '../components/VideoForm.jsk'
-import AiGenerator from '../components/AiGenerator.jsk'
-import Dashboard from '../components/Dashboard.jsk'
+import LoginButton from '../components/LoginButton.jsx'
+import VideoForm from '../components/VideoForm.jsx'
+import AiGenerator from '../components/AiGenerator.jsx'
+import Dashboard from '../components/Dashboard.jsx'
 
 export default function Home() {
   const [loggedIn, setLoggedIn] = useState(true) // implement real check
